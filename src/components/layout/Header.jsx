@@ -5,7 +5,7 @@ import UniLogo from "../../assets/uniLogo.svg";
 import HomeIcon from "../../assets/homeIcon.svg";
 import AboutIcon from "../../assets/aboutIcon.svg";
 import ContactIcon from "../../assets/contactIcon.svg";
-import Facebook from "../../assets/facebook.png";
+import Facebook from "../../assets/facebook.svg";
 import Instragram from "../../assets/instagram.svg";
 import Whatsapp from "../../assets/whatsapp.svg";
 
