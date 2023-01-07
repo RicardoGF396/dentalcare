@@ -35,7 +35,7 @@ function Header() {
         <img
           src={Menu}
           alt="menu"
-          className="lg:hidden w-[60px] pr-6"
+          className="lg:hidden w-[60px] pr-4"
           onClick={() => setIsActive(!isActive)}
         />
       </div>
