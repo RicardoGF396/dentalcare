@@ -15,7 +15,7 @@ const costumers = [
   {
     nombre: "Mario García",
     comentario:
-      "Después de tener algunas experiencias desagradables con otros consultorios dentales, finalmente encontré a Dentalcare y no puedo estar más satisfecho. Los dentistas son muy profesionales y siempre explican todo con claridad, lo que me da mucha confianza. Además, el equipo de recepción siempre es muy amable y eficiente. ¡Definitivamente recomendaría a Dentalcare a cualquiera en busca de un buen servicio dental!",
+      "Después de tener algunas experiencias desagradables con otros consultorios dentales, finalmente encontré a Dentalcare y no puedo estar más satisfecho. Los dentistas son muy profesionales y siempre explican todo con claridad, lo que me da mucha confianza. ",
     link: "#",
   },
 
