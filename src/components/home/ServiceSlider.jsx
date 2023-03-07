@@ -10,13 +10,24 @@ import "swiper/css";
 
 function ServiceSlider() {
   return (
-    <div className="relative w-full px-2 mt-6">
-      <img src={OrangeGirl} alt="services image" className="w-full" />
+    <div className="relative w-full sm:h-[600px] px-2 mt-6 border overflow-hidden">
+      <img src={OrangeGirl} alt="services image" className="w-full sm:h-[600px] object-cover" />
       <p className="absolute top-20 px-4 font-bold uppercase text-3xl">
         Somos <br /> expertos en
       </p>
-      <div className="w-full overflow-hidden -mt-[220px] pl-4 ">
-        <Swiper spaceBetween={250} slidesPerView={2} loop={true}>
+      <div className="w-full px-4 absolute bottom-12 ">
+        <Swiper 
+          loop={true}
+          grabCursor={true}
+          slidesPerView={1.3}
+          spaceBetween={10}
+
+          breakpoints={{
+            768:{
+              slidesPerView:2.3
+            }
+          }}
+        >
           <SwiperSlide>
             <SliderCard name={"Endodoncia"} number={1} />
           </SwiperSlide>
@@ -45,14 +56,3 @@ function ServiceSlider() {
 }
 
 export default ServiceSlider;
-
-/* 
-<SliderCard name={'Endodoncia'} number={1} />
-          
-          
-          
-          
-          
-          
-
-*/

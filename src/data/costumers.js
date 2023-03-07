@@ -33,7 +33,7 @@ const costumers = [
     link: "#",
   },
   {
-    nombre: "Laura Gómez",
+    nombre: "Paula Gómez",
     comentario:
       "Mi experiencia en Dentalcare ha sido increíble. Los dentistas son muy profesionales y siempre me han tratado con mucho cuidado. Además, el equipo de recepción siempre es muy amable y me ha ayudado a organizar mis citas de manera muy sencilla. ¡Definitivamente recomendaría a Dentalcare a cualquiera en busca de un buen servicio dental!",
     link: "#",

@@ -1,16 +1,15 @@
-import React from 'react'
+import React from "react";
 
-function SliderCard( {name, number} ) {
+function SliderCard({ name, number }) {
+  /* glass-effect */
   return (
-    <div>
-        <div className='relative w-[280px] h-[200px] glass-effect'>
-        <h3 className='font-bold text-white text-2xl px-4 py-6'> {name} </h3>
-        <div className='absolute bottom-6 right-8 px-4 py-2 border-2 border-white rounded-full'>
-            <p className='text-white'> {number} </p>
-        </div>
+    <div className="bg-white/80 border-2 border-white h-[170px] md:h-[220px]  pt-6 pl-6 rounded-xl">
+    <h2 className="text-2xl font-bold opacity-100" > {name} </h2>
+      <div className="absolute bottom-6 right-6 border-2 border-black rounded-full px-4 py-2">
+      {number}
+      </div>
     </div>
-    </div>
-  )
+  );
 }
 
-export default SliderCard
+export default SliderCard;
